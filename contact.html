@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>IW - Contact</title>
+        <meta name="description" content="우리의 추억들이 있는 곳">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="contact" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="images/logo.png" alt= "36th year of Hanil 1-1 Home"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="photo.html">Photo</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <h2 class="page-title">Contact</h2>
+                <form action="form.php" method="post">
+                    <div>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name"/>
+                    </div>
+
+                    <div>
+                        <label for="email">메일 주소</label>
+                        <input type="email" id="email" name="email"/>
+                    </div>
+
+                    <div>
+                        <label for="message">메시지</label>
+                        <textarea id="text" name="text"></textarea>
+                    </div>
+
+                    <input type="submit" class="button" value="전송"/> <!--onclick="javascript:btn()"-->
+                </form>
+                  <!-- <script>
+function btn(){
+    alert('전송완료');
+}
+                  </script>-->
+            </div><!-- /.wrapper -->
+        </div><!-- /#contact -->
+
+        <section id="location">
+            <div class="wrapper">
+                <div class="location-info">
+                    <h3 class="sub-title">한일고등학교 36기 <br>최원준</br></h3>
+                    <p>
+                        주소: 충남청남도 공주시<br>
+                        정안면 어물길 81<br>
+                        1학년 1반, C동 103호, 최원준<br>
+                        전화번호: 010-7398-7599<br>
+                        메일 주소: 20221123@hanilgo.cnehs.kr<br>
+                        
+                    </p>
+                </div><!-- /.location-info -->
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12811.63072961657!2d127.1304108!3d36.6045324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8776b943f808daa0!2z7ZWc7J286rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2sgh!4v1655033371952!5m2!1sko!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div><!-- /.location-map -->
+            </div><!-- /.wrapper -->
+        </section><!-- /#location -->
+
+        <section id="sns">
+            <div class="wrapper">
+                <div class="sns-box">
+                    <h3 class="sub-title">Facebook</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100013101102822&tabs=messages&width=0&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="0" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+
+                <div class="sns-box">
+                    <h3 class="sub-title">Instagram</h3>
+                    <!-- <a class="twitter-timeline" data-height="315" href="https://twitter.com/webcreatorbox?ref_src=twsrc%5Etfw">Tweets by webcreatorbox</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                </div>
+
+                <div class="sns-box">
+                    <h3 class="sub-title">Youtube</h3>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/bqJtUojA1-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </div>
+            </div><!-- /.wrapper -->
+        </section><!-- /#sns -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>1123 최원준 / C103 / 20221123@hanilgo.cnehs.kr</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
