@@ -1,6 +1,6 @@
 <?php
-$sum = array($_POST['email'], " / ", $_POST['text']);
+$sum = array($_POST['user-email'], " / ", $_POST['user-text']);
 
-	file_put_contents('./database/'.$_POST['name'], $sum);
-	header('Location: ./contact.html');
+	file_put_contents('database/'.$_POST['user-name'], $sum);
+	header('Location: contact.html');
 ?>
